@@ -1,24 +1,19 @@
 basic:
-  name: Foo Bar
-  title: Backend Developer
+  name: Deniss Lapcenko
+  title: Software, Cloud and Site Reliability Engineer
   avatar:
-    display: true
+    display: false
     path: profile.png
 
 contact:
-  location:
-  email: me@example.com
-  phone: +86-111-2222-3333
+  location: Riga, Latvia. Currently Indonesia
+  email: dennis.lapchenko@gmail.com
+  phone: +371 25953702
   website: example.com
-  wechat:
   whatsapp:
   telegram:
-  github: github
-  gitlab:
-  bitbucket:
-  googlescholar:
-  researchgate:
-  linkedin:
+  github: https://github.com/dennislapchenko
+  linkedin: https://www.linkedin.com/in/dennis-lapcenko/
   medium:
   twitter: twitter
   stackoverflow:
@@ -33,7 +28,6 @@ profile:
     + First
     + Second
 
-    ...
 
 experiences:
   display: true
@@ -64,7 +58,7 @@ experiences:
         ...
 
 projects:
-  display: true
+  display: false
   title: Projects
   intro: |
     This is all the projects I'm involved in.
@@ -81,7 +75,7 @@ projects:
         Project Bar's detail, you can write markdown format text.
 
 skills:
-  display: true
+  display: false
   title: Skills
   details: |
     Here is my skills:
@@ -125,7 +119,7 @@ education:
         ...
 
 certificates:
-  display: true
+  display: false
   title: Certificates
   items:
     - name: Course Foo
@@ -141,23 +135,14 @@ certificates:
       details: |
 
 publications:
-  display: true
+  display: false
   title: Publications
   intro: |
     This is all the books I wrote.
-
-  items:
-    - title: Foo in Action
-      authors: Foo Bar
-      conference: Foobar, 2019
-      link: https://www.google.com
-    - title: The Art of Bar
-      authors: Foo Bar
-      conference: Foobar, 2019
-      link:
+  items: []
 
 patents:
-  display: true
+  display: false
   title: Patents
   details: |
     This is all my patents.
@@ -167,9 +152,11 @@ languages:
   display: true
   title: Languages
   items:
-    - idiom: Chinese
-      level: Native
     - idiom: English
+      level: Bilingual
+    - idiom: Russian
+      level: Native
+    - idiom: Latvian
       level: Professional
 
 interests:
@@ -182,7 +169,7 @@ interests:
       link:
 
 evaluation:
-  display: true
+  display: false
   title: Self-evaluation
   details: |
     Here is my self evaluation.
@@ -192,7 +179,7 @@ evaluation:
     ...
 
 footer:
-  display: true
+  display: false
 
 close: >
   Sorry, my resume has been hidden.
