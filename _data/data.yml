@@ -6,14 +6,14 @@ basic:
     path: profile.png
 
 contact:
-  location: Riga, Latvia. Currently Indonesia
+  location: Riga, Latvia (currently Indonesia)
   email: deniss.lapcenko@gmail.com
   phone: +371 25953702
   website:
   whatsapp:
   telegram:
-  github: https://github.com/dennislapchenko
-  linkedin: https://www.linkedin.com/in/dennis-lapcenko/
+  github: dennislapchenko
+  linkedin: 
   medium:
   twitter:
   stackoverflow:
@@ -22,80 +22,153 @@ contact:
 
 profile:
   display: true
-  title: Profile
+  title:
   details: |
     Cloud infrastructure and application development, configuration, deployment, testing and monitoring. Started as e-commerce/data backend engineer, authoring REST micro-services. Later gravitated towards writing infrastructure as code, Kubernetes operation, CICD pipelines, QAOps, GitOps, monitoring, reporting and alerting.
-    + Smooth automation with single sources of truth gets my juices flowing!
-    + Experience in game development (MMORPG) and digital signal processing (audio) from university days in Bath, UK.
-    + Not afraid of firmly voicing an opinion, not shy in giving complements or feeding back caring constructive criticism. Enjoy environments filled with witty humour. Source inspiration from art forms, cultural human interactions and internal mind-body sciences.
-
+    Smooth automation with single sources of truth gets my juices flowing!
+    <br> Experience in game development (MMORPG) and digital signal processing (audio) from university days in Bath, UK.
+    <br> Not afraid of firmly voicing an opinion, not shy in giving complements or feeding back caring constructive criticism. Enjoy environments filled with witty humour. Source inspiration from art forms, cultural human interactions and internal mind-body sciences.
+    
 experiences:
   display: true
   title: Experience
   items:
-    - role: Senior Cloud Engineer
+    - company: Whisk (by Samsung)
+      website: whisk.com
+      role: Senior Cloud Engineer
       time: 2022.11 - present
-      company: Whisk (by Samsung)
-      tag: b2b full-time
+      tag:
       location: Remote
       details: |
-        + Automating legacy approaches throughout infrastructure and team management. Migrating/rebuilding Kubernetes clusters with all infrastructure around them.
-        + GCP, Kubernetes, Terraform, Ansible, Cloudflare, Github
+        Automating legacy approaches throughout infrastructure and team management. Migrating/rebuilding Kubernetes clusters with all infrastructure around them.
+      tech:
+        - GCP
+        - Kubernetes
+        - Terraform
+        - Ansible
+        - Cloudflare
+        - Github [Actions]
 
-    - role: Cloud Architect
+    - company: Octostrategy
+      role: Cloud Architect
+      website: ""
       time: 2022.05 - present
-      company: Octostrategy
-      tag: part-time
+      tag:
       location: Riga, Latvia
       details: |
-        + Platform migration to cloud. Server deployment, configuration, monitoring and alerting. Network securing and vulnerable application load-balancer fine tuning. Cyberattack prevention and analysis.
-        + AWS, Ansible, Terraform, Nginx, Cloudflare, Github
+        Platform migration to cloud. Server deployment, configuration, monitoring and alerting. Network securing and vulnerable application load-balancer fine tuning. Cyberattack prevention and analysis.
+      tech:
+        - AWS
+        - Ansible
+        - Terraform [-grunt]
+        - Nginx
+        - Cloudflare  
+        - Github [Actions]
 
-    - role: Senior Development & Cloud Engineer
+    - company: Bidstack Ltd
+      website: bidstack.com
+      role: Senior Development & Cloud Engineer
       time: 2020.01 - 2022.10
-      company: Bidstack
-      tag: full-time
+      tag:
       location: Riga, Latvia
       details: |
-        + Infrastructure provisioning, monitoring, and cost optimization. Full ownership of application CICD pipelines. Business and system application development, configuration, testing, deployment and monitoring. Building in-house tools for documentation and report generation, data analysis, and continuous CLI workflow improvement. Continuous improvements via GitOps dependency and template updates.
-        + GCP, Kubernetes, Helm, Terraform/Terragrunt, Golang, Bash, Python, Stackdriver, Prometheus, Atlantis, Renovate, Bitbucket
+        Infrastructure provisioning, monitoring, and cost optimization. Full ownership of application CICD pipelines. Business and system application development, configuration, testing, deployment and monitoring. Building in-house tools for documentation and report generation, data analysis, and continuous CLI workflow improvement. Continuous improvements via GitOps dependency and template updates.
+      tech:
+        - GCP
+        - Kubernetes, Helm
+        - Terraform [-grunt]
+        - Golang, Bash, Python
+        - Stackdriver, Prometheus, Grafana
+        - Atlantis
+        - Renovate
+        - Bitbucket [Pipelines]
 
-    - role: Development & Cloud Engineer
-      time: 2022.05 - present
-      company: Salmon LTD (previously Neoworks, later WundermanThompsonCommerce)
-      tag: full-time
+    - company: Salmon Ltd (previously Neoworks, later WundermanThompsonCommerce)
+      website: "wundermanthompsoncommerce.com"
+      role: Development & Cloud Engineer
+      time: 2016.05 - 2019.06
+      tag:
       location: London, UK
       details: |
-        + Developing, maintaining, testing and documenting RESTful API’s for e-commerce and telecom platforms for clients, and in-house tools. Actively communicating with colleagues across teams and 3rd parties. Planning, researching and validating technical requirements & specifications. Later writing infrastructure as code and managing k8s clusters.
-        + Clients: Audi, Halfords, Wolseley. T-Mobile US, Circle Media Inc
-        + Java, Golang, Redis, MySQL, Jenkins. AWS, Terraform, Kubernetes, Helm, Docker, ELK
+        Developing, maintaining, testing and documenting RESTful API’s for e-commerce and telecom platforms for clients, and in-house tools. Actively communicating with colleagues across teams and 3rd parties. Planning, researching and validating technical requirements & specifications. Later writing infrastructure as code and managing k8s clusters.
+        <br> Clients: Audi, Halfords, Wolseley. T-Mobile US, Circle Media Inc
+      tech:
+        - Java
+        - Golang
+        - Redis
+        - MySQL
+        - Kenkins
+        - AWS
+        - Terraform
+        - Kubernetes, Helm
+        - Docker
+        - ELK
+
+    - company: Codemasters Ltd
+      website: "www.codemasters.com"
+      role: Audio Programmer & Sound Designer
+      time: 2015.06 - 2015.07
+      tag: internship
+      location: London, UK
+      details: |
+        Internship in a respectable UK game studio. Gained insights on how game production pipelines, huge code base and version control works. Wrote an audio processing feature for DiRT Rally and did voice-over for Russian localization. Designed sound assets for Micromachines.
+      tech:
+        - C++
+        - Perforce
+        - WWise
+        - Sound Forge
+        - Sony Vegas
+        - in-house software
 
 projects:
   display: true
-  title: Projects
+  title: Notable Projects
   intro: ""
   items:
     - name: Audio granular re-synthesis and resampling @ University.
-      link:
+      link: https://github.com/dennislapchenko/srxvert
       details: |
-        + For bachelor’s Audio Software Development module developed an audio file processor with unique granular re-synthesis algorithm. Using JUCE, a high level C++ framework. From a sample file application procedurally generates any number of audio files with various transforming settings. Up-sampling and down-sampling algorithms were also implemented.
-        + C++: JUCE
+        For bachelor’s Audio Software Development module developed an audio file processor with unique granular re-synthesis algorithm. Using JUCE, a high level C++ framework. From a sample file application procedurally generates any number of audio files with various transforming settings. Up-sampling and down-sampling algorithms were also implemented.
     - name: Multiplayer Online Role Playing Game @ University.
-      link:
+      link: https://github.com/dennislapchenko/DARP_Server
       details: |
-        + As part of bachelors thesis built a MMORPG game prototype. Back-end solution with Photon Server framework and MySQL database. Client in Unity3D. Photoshop for assets. Deployed the server to AWS EC2, database to DigitalOcean, and tested the game on iPad and iPhone devices.
-        + C#: Photon, Unity3D. MySQL
+        As part of bachelors thesis built a MMORPG game prototype. Back-end solution with C# Photon Server framework and MySQL database. Client in Unity3D. Photoshop for assets. Deployed the server to AWS EC2, database to DigitalOcean, and tested the game on iPad and iPhone devices.
 
 skills:
   display: true
   title: Skills
-  details: |
-    ### Operations
-    Terraform(-grunt), Ansible, K8s, Helm, Docker, GCP, AWS, Python, Bash, Atlantis, Renovate, Nginx, Grafana, Prometheus, Redis, SQL DBA, Bitbucket, Github
-    ### Development
-    Golang, Java, Python, Git, C#, Javascript, Unity3D
-    ### Media
-    Ableton Live, WWise, Cinema4D, PureData, MaxMSP
+  items:
+    - name: Operations
+      skills:
+        - GCP, AWS
+        - Terraform[-grunt]
+        - Kubernetes, Helm, Docker
+        - VPC design
+        - VPN
+        - ArgoCD
+        - Ansible
+        - Bash
+        - Nginx, SSL
+        - Grafana, Prometheus
+        - Atlantis
+        - Renovate
+        - Postgres, MySQL
+        - Github, Bitbucket
+    - name: Development
+      skills:
+        - Go
+        - Python
+        - Java
+        - Git
+        - Javascript
+        - 12 factor app
+    - name: Media
+      skills:
+        - Ableton Live
+        - Cinema4D
+        - PureData
+        - MaxMSP
+        - Unity3D
   # levels:
   #   - name: Skill A
   #     level: 90
@@ -110,17 +183,16 @@ education:
   items:
     - university: Stanford University
       time: 2015
-      major: "Programming Methodology: CD106A"
+      major: "Programming Methodology: CS106A"
       degree: Online course
       details: ""
 
     - university: Bath Spa University, Bath, UK
       time: 2013 - 2016
       major: Creative Music Technology
-      degree: Bachelor
+      degree: Bachelor, first class
       details: |
-        Audio engineering, DSP, generative visual art, game, audio and network programming.
-        + Finished with 1st class.
+        Audio engineering, digital signal processing, generative visual art, audio / game / network programming.
 
 certificates:
   display: false
@@ -138,21 +210,10 @@ certificates:
       link: https://www.google.com
       details: |
 
-publications:
-  display: false
-  title: Publications
-  intro: ""
-  items: []
-
-patents:
-  display: false
-  title: Patents
-  details: ""
-
 languages:
-  display: true
+  display: false
   title: Languages
-  items:
+  items: 
     - idiom: English
       level: Bilingual
     - idiom: Russian
@@ -164,26 +225,17 @@ interests:
   display: true
   title: Life
   items:
-    - item: Self-development books/media
-      link:
-    - item: Yoga, Qigong & Tai Chi
-      link:
     - item: Music production and DJ'ing
       link: https://soundcloud.com/ootekai
-    - item: Consciousness and its mechanics
+    - item: Self/World-development books & media
       link:
     - item: Fermentation, Nutrition, Digestion
       link:
+    - item: Yoga, Qigong & Tai Chi
+      link:
+    - item: Consciousness and its mechanics
+      link:
 
-evaluation:
-  display: false
-  title: Self-evaluation
-  details: |
-    Here is my self evaluation.
-    + First
-    + Second
-
-    ...
 
 footer:
   display: false

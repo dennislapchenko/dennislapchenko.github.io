@@ -11,10 +11,12 @@
 
             <div class="upper-row">
                 <div class="company">
-                    {{ experience.company }}
-                    {% if experience.tag %}
-                    <small>[{{ experience.tag }}]</small>
-                    {% endif %}
+                    <a href="https://{{ experience.website }}" target="_blank">
+                        {{ experience.company }}
+                        {% if experience.tag %}
+                        <small>[{{ experience.tag }}]</small>
+                        {% endif %}
+                    </a>
                 </div>
                 <div class="time">{{ experience.time }}</div>
             </div>
@@ -29,6 +31,15 @@
                 <div class="markdown">
                     {{ experience.details | markdownify }}
                 </div>
+            </div>
+            {% endif %}
+            {% if experience.tech %}
+            <div class="techlist">
+                Tech:&nbsp;
+            {%- for skill in experience.tech -%}
+                {{ skill }}
+                {%- unless forloop.last %}, {% endunless %}
+            {%- endfor %}
             </div>
             {% endif %}
 

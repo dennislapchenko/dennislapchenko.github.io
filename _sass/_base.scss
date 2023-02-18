@@ -44,7 +44,7 @@ small {
 
         .section-title {
             text-transform: uppercase;
-            font-size: $large-font-size;
+            font-size: $huge-font-size;
             font-weight: $base-font-weight * 1.25;
             color: $theme-color;
             position: relative;
@@ -54,12 +54,18 @@ small {
         }
 
         .section-content {
+            .techlist {
+                font-style: italic;
+            }
             .markdown {
                 ul,
                 ol {
                     margin-bottom: $spacing-unit / 4;
                     padding-inline-start: $spacing-unit;
                 }
+            }
+            .item {
+                border-bottom: 1px dashed rgba($item-divider-color, 20%);
             }
         }
 
@@ -68,18 +74,31 @@ small {
             overflow: hidden;
             margin-bottom: 2px;
 
-            .company,
+            .company {
+                font-weight: 800;
+                font-size: $middle-font-size;
+                margin-top: 8px;
+                margin-bottom: 1px;
+                text-decoration: underline;
+            }
             .certificate,
             .university {
-                font-weight: $base-font-weight * 1.75;
+                font-weight: 700;
             }
-
-            .role,
+            .role {
+                color: $theme-color;
+            }
             .authority,
             .major {
                 font-style: italic;
             }
-
+            .skill_group {
+                font-weight: $base-font-weight * 2;
+                margin-bottom: 2px;
+            }
+            .skillez {
+                max-width: 80ch;
+            }
             .time,
             .location,
             .degree {
@@ -137,6 +156,7 @@ small {
             font-weight: $base-font-weight * 1.75;
             color: $text-color;
             margin-bottom: 1px;
+            text-decoration: underline;
         }
     }
 
@@ -147,29 +167,17 @@ small {
         }
     }
 
-    .publications {
-        .title {
-            font-weight: $base-font-weight * 1.75;
-            color: $text-color;
-            margin-bottom: 1px;
-        }
-
-        .authors {
-            font-style: italic;
-        }
-    }
-
     .languages,
     .interests {
         ul {
             margin-bottom: $spacing-unit / 4;
 
             li {
-                display: inline;
+                display: block;
                 white-space: nowrap;
 
-                &:not(:last-child)::after {
-                    content: '/';
+                &:before {
+                    content: '•';
                     margin: 0 0.25em;
                 }
             }
