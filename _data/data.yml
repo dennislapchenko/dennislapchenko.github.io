@@ -2,20 +2,20 @@ basic:
   name: Deniss Lapcenko
   title: Software, Cloud and Site Reliability Engineer
   avatar:
-    display: false
+    display: true
     path: profile.png
 
 contact:
   location: Riga, Latvia. Currently Indonesia
   email: deniss.lapcenko@gmail.com
   phone: +371 25953702
-  website: 
+  website:
   whatsapp:
   telegram:
   github: https://github.com/dennislapchenko
   linkedin: https://www.linkedin.com/in/dennis-lapcenko/
   medium:
-  twitter: 
+  twitter:
   stackoverflow:
   quora:
   goodreads:
@@ -24,8 +24,10 @@ profile:
   display: true
   title: Profile
   details: |
-    Cloud infrastructure and application development, configuration, deployment, testing and monitoring. Started as e-commerce/data backend engineer, authoring REST micro-services. Later gravitated towards writing infrastructure as code, Kubernetes operation, CICD pipelines, QAOps, GitOps, monitoring, reporting and alerting. Smooth automation with single sources of truth gets my juices flowing! Experience in game development (MMORPG) and digital signal processing (audio) from university days in Bath, UK. 
-    Not afraid of firmly voicing an opinion, not shy in giving complements or feeding back caring constructive criticism. Enjoy environments filled with witty humour. Source inspiration from art forms, cultural human interactions and internal mind-body sciences.
+    Cloud infrastructure and application development, configuration, deployment, testing and monitoring. Started as e-commerce/data backend engineer, authoring REST micro-services. Later gravitated towards writing infrastructure as code, Kubernetes operation, CICD pipelines, QAOps, GitOps, monitoring, reporting and alerting.
+    + Smooth automation with single sources of truth gets my juices flowing!
+    + Experience in game development (MMORPG) and digital signal processing (audio) from university days in Bath, UK.
+    + Not afraid of firmly voicing an opinion, not shy in giving complements or feeding back caring constructive criticism. Enjoy environments filled with witty humour. Source inspiration from art forms, cultural human interactions and internal mind-body sciences.
 
 experiences:
   display: true
@@ -37,7 +39,7 @@ experiences:
       tag: b2b full-time
       location: Remote
       details: |
-        + Automating legacy approaches throughout infrastructure and team management. Migrating/rebuilding Kubernetes clusters with all infrastructure around them. 
+        + Automating legacy approaches throughout infrastructure and team management. Migrating/rebuilding Kubernetes clusters with all infrastructure around them.
         + GCP, Kubernetes, Terraform, Ansible, Cloudflare, Github
 
     - role: Cloud Architect
@@ -46,7 +48,7 @@ experiences:
       tag: part-time
       location: Riga, Latvia
       details: |
-        + Platform migration to cloud. Server deployment, configuration, monitoring and alerting. Network securing and vulnerable application load-balancer fine tuning. Cyberattack prevention and analysis.  
+        + Platform migration to cloud. Server deployment, configuration, monitoring and alerting. Network securing and vulnerable application load-balancer fine tuning. Cyberattack prevention and analysis.
         + AWS, Ansible, Terraform, Nginx, Cloudflare, Github
 
     - role: Senior Development & Cloud Engineer
@@ -57,7 +59,7 @@ experiences:
       details: |
         + Infrastructure provisioning, monitoring, and cost optimization. Full ownership of application CICD pipelines. Business and system application development, configuration, testing, deployment and monitoring. Building in-house tools for documentation and report generation, data analysis, and continuous CLI workflow improvement. Continuous improvements via GitOps dependency and template updates.
         + GCP, Kubernetes, Helm, Terraform/Terragrunt, Golang, Bash, Python, Stackdriver, Prometheus, Atlantis, Renovate, Bitbucket
-    
+
     - role: Development & Cloud Engineer
       time: 2022.05 - present
       company: Salmon LTD (previously Neoworks, later WundermanThompsonCommerce)
@@ -74,7 +76,7 @@ projects:
   intro: ""
   items:
     - name: Audio granular re-synthesis and resampling @ University.
-      link: 
+      link:
       details: |
         + For bachelor’s Audio Software Development module developed an audio file processor with unique granular re-synthesis algorithm. Using JUCE, a high level C++ framework. From a sample file application procedurally generates any number of audio files with various transforming settings. Up-sampling and down-sampling algorithms were also implemented.
         + C++: JUCE
@@ -108,7 +110,7 @@ education:
   items:
     - university: Stanford University
       time: 2015
-      major: Programming Methodology: CD106A
+      major: "Programming Methodology: CD106A"
       degree: Online course
       details: ""
 
@@ -171,7 +173,7 @@ interests:
     - item: Consciousness and its mechanics
       link:
     - item: Fermentation, Nutrition, Digestion
-      link: 
+      link:
 
 evaluation:
   display: false
