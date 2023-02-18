@@ -7,15 +7,15 @@ basic:
 
 contact:
   location: Riga, Latvia. Currently Indonesia
-  email: dennis.lapchenko@gmail.com
+  email: deniss.lapcenko@gmail.com
   phone: +371 25953702
-  website: example.com
+  website: 
   whatsapp:
   telegram:
   github: https://github.com/dennislapchenko
   linkedin: https://www.linkedin.com/in/dennis-lapcenko/
   medium:
-  twitter: twitter
+  twitter: 
   stackoverflow:
   quora:
   goodreads:
@@ -24,99 +24,101 @@ profile:
   display: true
   title: Profile
   details: |
-    It's your career profile, you can wirte markdown format text.
-    + First
-    + Second
-
+    Cloud infrastructure and application development, configuration, deployment, testing and monitoring. Started as e-commerce/data backend engineer, authoring REST micro-services. Later gravitated towards writing infrastructure as code, Kubernetes operation, CICD pipelines, QAOps, GitOps, monitoring, reporting and alerting. Smooth automation with single sources of truth gets my juices flowing! Experience in game development (MMORPG) and digital signal processing (audio) from university days in Bath, UK. 
+    Not afraid of firmly voicing an opinion, not shy in giving complements or feeding back caring constructive criticism. Enjoy environments filled with witty humour. Source inspiration from art forms, cultural human interactions and internal mind-body sciences.
 
 experiences:
   display: true
-  title: Experiences
+  title: Experience
   items:
-    - role: Backend Developer
-      time: 2018.03 - 2019.03
-      company: Second Company
-      tag:
-      location: Beijing
+    - role: Senior Cloud Engineer
+      time: 2022.11 - present
+      company: Whisk (by Samsung)
+      tag: b2b full-time
+      location: Remote
       details: |
-        Experience in this company:
-        + First
-        + Second
+        + Automating legacy approaches throughout infrastructure and team management. Migrating/rebuilding Kubernetes clusters with all infrastructure around them. 
+        + GCP, Kubernetes, Terraform, Ansible, Cloudflare, Github
 
-        ...
-
-    - role: Backend Developer
-      time: 2017.03 - 2018.03
-      company: First Company
-      tag: Remote, part-time
-      location: Beijing
+    - role: Cloud Architect
+      time: 2022.05 - present
+      company: Octostrategy
+      tag: part-time
+      location: Riga, Latvia
       details: |
-        Experience in this company:
-        + First
-        + Second
+        + Platform migration to cloud. Server deployment, configuration, monitoring and alerting. Network securing and vulnerable application load-balancer fine tuning. Cyberattack prevention and analysis.  
+        + AWS, Ansible, Terraform, Nginx, Cloudflare, Github
 
-        ...
+    - role: Senior Development & Cloud Engineer
+      time: 2020.01 - 2022.10
+      company: Bidstack
+      tag: full-time
+      location: Riga, Latvia
+      details: |
+        + Infrastructure provisioning, monitoring, and cost optimization. Full ownership of application CICD pipelines. Business and system application development, configuration, testing, deployment and monitoring. Building in-house tools for documentation and report generation, data analysis, and continuous CLI workflow improvement. Continuous improvements via GitOps dependency and template updates.
+        + GCP, Kubernetes, Helm, Terraform/Terragrunt, Golang, Bash, Python, Stackdriver, Prometheus, Atlantis, Renovate, Bitbucket
+    
+    - role: Development & Cloud Engineer
+      time: 2022.05 - present
+      company: Salmon LTD (previously Neoworks, later WundermanThompsonCommerce)
+      tag: full-time
+      location: London, UK
+      details: |
+        + Developing, maintaining, testing and documenting RESTful API’s for e-commerce and telecom platforms for clients, and in-house tools. Actively communicating with colleagues across teams and 3rd parties. Planning, researching and validating technical requirements & specifications. Later writing infrastructure as code and managing k8s clusters.
+        + Clients: Audi, Halfords, Wolseley. T-Mobile US, Circle Media Inc
+        + Java, Golang, Redis, MySQL, Jenkins. AWS, Terraform, Kubernetes, Helm, Docker, ELK
 
 projects:
-  display: false
+  display: true
   title: Projects
-  intro: |
-    This is all the projects I'm involved in.
-
+  intro: ""
   items:
-    - name: Foo
-      link: https://www.google.com
+    - name: Audio granular re-synthesis and resampling @ University.
+      link: 
       details: |
-        Project Foo's detail, you can write markdown format text.
-
-    - name: Bar
+        + For bachelor’s Audio Software Development module developed an audio file processor with unique granular re-synthesis algorithm. Using JUCE, a high level C++ framework. From a sample file application procedurally generates any number of audio files with various transforming settings. Up-sampling and down-sampling algorithms were also implemented.
+        + C++: JUCE
+    - name: Multiplayer Online Role Playing Game @ University.
       link:
       details: |
-        Project Bar's detail, you can write markdown format text.
+        + As part of bachelors thesis built a MMORPG game prototype. Back-end solution with Photon Server framework and MySQL database. Client in Unity3D. Photoshop for assets. Deployed the server to AWS EC2, database to DigitalOcean, and tested the game on iPad and iPhone devices.
+        + C#: Photon, Unity3D. MySQL
 
 skills:
-  display: false
+  display: true
   title: Skills
   details: |
-    Here is my skills:
-    + First
-    + Second
-
-    ...
-
-  levels:
-    - name: Skill A
-      level: 90
-    - name: Skill B
-      level: 80
-    - name: Skill C
-      level: 70
+    ### Operations
+    Terraform(-grunt), Ansible, K8s, Helm, Docker, GCP, AWS, Python, Bash, Atlantis, Renovate, Nginx, Grafana, Prometheus, Redis, SQL DBA, Bitbucket, Github
+    ### Development
+    Golang, Java, Python, Git, C#, Javascript, Unity3D
+    ### Media
+    Ableton Live, WWise, Cinema4D, PureData, MaxMSP
+  # levels:
+  #   - name: Skill A
+  #     level: 90
+  #   - name: Skill B
+  #     level: 80
+  #   - name: Skill C
+  #     level: 70
 
 education:
   display: true
   title: Education
   items:
-    - university: Example University
-      time: 2015 - 2018
-      major: Machine Learning
-      degree: Master
-      details: |
-        Experience in this university:
-        + First
-        + Second
+    - university: Stanford University
+      time: 2015
+      major: Programming Methodology: CD106A
+      degree: Online course
+      details: ""
 
-        ...
-
-    - university: Example University
-      time: 2011 - 2015
-      major: Computer Science
+    - university: Bath Spa University, Bath, UK
+      time: 2013 - 2016
+      major: Creative Music Technology
       degree: Bachelor
       details: |
-        Experience in this university:
-        + First
-        + Second
-
-        ...
+        Audio engineering, DSP, generative visual art, game, audio and network programming.
+        + Finished with 1st class.
 
 certificates:
   display: false
@@ -137,16 +139,13 @@ certificates:
 publications:
   display: false
   title: Publications
-  intro: |
-    This is all the books I wrote.
+  intro: ""
   items: []
 
 patents:
   display: false
   title: Patents
-  details: |
-    This is all my patents.
-    + 2020\. A patent name is here. CN123456, filed May 15, 2020, and issued July 20, 2020.
+  details: ""
 
 languages:
   display: true
@@ -161,12 +160,18 @@ languages:
 
 interests:
   display: true
-  title: Interests
+  title: Life
   items:
-    - item: Reading
+    - item: Self-development books/media
       link:
-    - item: Cooking
+    - item: Yoga, Qigong & Tai Chi
       link:
+    - item: Music production and DJ'ing
+      link: https://soundcloud.com/ootekai
+    - item: Consciousness and its mechanics
+      link:
+    - item: Fermentation, Nutrition, Digestion
+      link: 
 
 evaluation:
   display: false
