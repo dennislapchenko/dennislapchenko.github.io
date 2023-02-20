@@ -73,6 +73,7 @@ small {
             position: relative;
             overflow: hidden;
             margin-bottom: 2px;
+            display: flex;
 
             .company {
                 font-weight: 800;
@@ -97,7 +98,10 @@ small {
                 margin-bottom: 2px;
             }
             .skillez {
-                max-width: 80ch;
+                width: 100%;
+                margin-left: 100px;
+                text-align: right;
+                color: $text-third-color;
             }
             .time,
             .location,
