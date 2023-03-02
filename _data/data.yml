@@ -24,10 +24,14 @@ profile:
   display: true
   title:
   details: |
-    Cloud infrastructure and application development, configuration, deployment, testing and monitoring. Started as e-commerce/data backend engineer, authoring REST micro-services. Later gravitated towards writing infrastructure as code, Kubernetes operation, CICD pipelines, QAOps, GitOps, monitoring, reporting and alerting.
+    Cloud infrastructure and application development, configuration, deployment, testing and monitoring. 
+    Started as e-commerce/data backend engineer, authoring REST micro-services. 
+    Later gravitated towards writing infrastructure as code, Kubernetes operation, CICD pipelines, QAOps, GitOps, monitoring, reporting and alerting.
     Smooth automation with single sources of truth gets my juices flowing!
     <br> Experience in game development (MMORPG) and digital signal processing (audio) from university days in Bath, UK.
-    <br> Not afraid of firmly voicing an opinion, not shy in giving complements or feeding back caring constructive criticism. Enjoy environments filled with witty humour. Source inspiration from art forms, cultural human interactions and internal mind-body sciences.
+    <br> Not afraid of firmly voicing an opinion, not shy in giving complements or feeding back caring constructive criticism. 
+    Enjoy environments filled with witty humour. 
+    Source inspiration from art forms, cultural human interactions and internal mind-body sciences.
     
 experiences:
   display: true
@@ -40,12 +44,14 @@ experiences:
       tag:
       location: Remote
       details: |
-        Automating legacy approaches throughout infrastructure and team management. Migrating/rebuilding Kubernetes clusters with all infrastructure around them.
+        Automating legacy approaches throughout infrastructure and team management (GitHub IAM, GCP IAM). 
+        Migrating/rebuilding Kubernetes clusters with all infrastructure around them.
       tech:
         - GCP
         - Kubernetes
         - Terraform
         - Ansible
+        - ArgoCD/FluxCD
         - Cloudflare
         - Github [Actions]
 
@@ -56,7 +62,9 @@ experiences:
       tag:
       location: Riga, Latvia
       details: |
-        Platform migration to cloud. Server deployment, configuration, monitoring and alerting. Network securing and vulnerable application load-balancer fine tuning. Cyberattack prevention and analysis.
+        Platform migration to cloud. Server deployment, configuration, monitoring and alerting. 
+        Network securing and vulnerable application load-balancer fine tuning. 
+        Cyberattack prevention and analysis.
       tech:
         - AWS
         - Ansible
@@ -72,7 +80,11 @@ experiences:
       tag:
       location: Riga, Latvia
       details: |
-        Infrastructure provisioning, monitoring, and cost optimization. Full ownership of application CICD pipelines. Business and system application development, configuration, testing, deployment and monitoring. Building in-house tools for documentation and report generation, data analysis, and continuous CLI workflow improvement. Continuous improvements via GitOps dependency and template updates.
+        Infrastructure provisioning, monitoring, and cost optimization. 
+        Full ownership of application CICD pipelines. 
+        Business and system application development, configuration, testing, deployment and monitoring. 
+        Building in-house tools for documentation and report generation, data analysis, and continuous CLI workflow improvement. 
+        Continuous improvements via GitOps dependency and template updates.
       tech:
         - GCP
         - Kubernetes, Helm
@@ -97,7 +109,7 @@ experiences:
         - Golang
         - Redis
         - MySQL
-        - Kenkins
+        - Jenkins
         - AWS
         - Terraform
         - Kubernetes, Helm
@@ -161,7 +173,7 @@ skills:
         - Java
         - Git
         - Javascript
-        - 12 factor app
+        - 12 Factor App
     - name: Media
       skills:
         - Ableton Live
@@ -201,14 +213,9 @@ certificates:
     - name: Course Foo
       authority: Coursera
       time: 2020
-      link:
-      details: |
-        It's my Course Foo certificate by coursera.
-    - name: Course Bar
-      authority: Coursera
-      time: 2020
       link: https://www.google.com
       details: |
+        It's my Course Foo certificate by coursera.
 
 languages:
   display: false
