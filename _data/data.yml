@@ -13,26 +13,23 @@ contact:
   whatsapp:
   telegram:
   github: dennislapchenko
-  linkedin: 
-  medium:
+  linkedin:
   twitter:
   stackoverflow:
-  quora:
-  goodreads:
 
 profile:
   display: true
   title:
   details: |
-    Cloud infrastructure and application development, configuration, deployment, testing and monitoring. 
-    Started as e-commerce/data backend engineer, authoring REST micro-services. 
-    Later gravitated towards writing infrastructure as code, Kubernetes operation, CICD pipelines, QAOps, GitOps, monitoring, reporting and alerting.
-    Smooth automation with single sources of truth gets my juices flowing!
+    Cloud infrastructure and application development, configuration, deployment, testing and monitoring.
+    Started as e-commerce/data backend engineer, authoring REST micro-services.
+    Later gravitated to writing infrastructure as code, Kubernetes operation, CICD pipelines, QAOps, GitOps, monitoring, reporting and alerting.
+    <br> Smooth automation with single sources of truth gets my juices flowing! Obsess over workflow improving hotkeys/scripts/applications.
     <br> Experience in game development (MMORPG) and digital signal processing (audio) from university days in Bath, UK.
-    <br> Not afraid of firmly voicing an opinion, not shy in giving complements or feeding back caring constructive criticism. 
-    Enjoy environments filled with witty humour. 
+    <br> Not afraid of firmly voicing an opinion, not shy in giving complements or feeding back caring constructive criticism.
+    Enjoy environments filled with witty humour.
     Source inspiration from art forms, cultural human interactions and internal mind-body sciences.
-    
+
 experiences:
   display: true
   title: Experience
@@ -44,12 +41,12 @@ experiences:
       tag:
       location: Remote
       details: |
-        Automating legacy approaches throughout infrastructure and team management (GitHub IAM, GCP IAM). 
-        Migrating/rebuilding Kubernetes clusters with all infrastructure around them.
+        Automating legacy approaches throughout infrastructure and team management (IaC for GitHub IAM, GCP IAM).
+        Migrating/rebuilding Kubernetes clusters, VPCs, VPNs and other auxiliary infrastructure.
       tech:
-        - GCP
-        - Kubernetes
         - Terraform
+        - Kubernetes
+        - GCP
         - Ansible
         - ArgoCD/FluxCD
         - Cloudflare
@@ -62,15 +59,15 @@ experiences:
       tag:
       location: Riga, Latvia
       details: |
-        Platform migration to cloud. Server deployment, configuration, monitoring and alerting. 
-        Network securing and vulnerable application load-balancer fine tuning. 
-        Cyberattack prevention and analysis.
+        Platform migration to cloud. Server deployment, configuration, monitoring and alerting.
+        Network securing and vulnerable application load-balancer fine tuning.
+        Cyberattack analysis and prevention.
       tech:
-        - AWS
+        - Terraform (-grunt)
         - Ansible
-        - Terraform [-grunt]
+        - AWS
         - Nginx
-        - Cloudflare  
+        - Cloudflare
         - Github [Actions]
 
     - company: Bidstack Ltd
@@ -80,16 +77,16 @@ experiences:
       tag:
       location: Riga, Latvia
       details: |
-        Infrastructure provisioning, monitoring, and cost optimization. 
-        Full ownership of application CICD pipelines. 
-        Business and system application development, configuration, testing, deployment and monitoring. 
-        Building in-house tools for documentation and report generation, data analysis, and continuous CLI workflow improvement. 
+        Infrastructure provisioning, monitoring and cost optimization.
+        Full ownership of application CICD pipelines.
+        Business and system application development, configuration, testing, deployment and monitoring.
+        Building in-house tools for documentation and report generation, data analysis, and continuous CLI workflow improvements.
         Continuous improvements via GitOps dependency and template updates.
       tech:
-        - GCP
+        - Terraform (-grunt)
         - Kubernetes, Helm
-        - Terraform [-grunt]
         - Golang, Bash, Python
+        - GCP
         - Stackdriver, Prometheus, Grafana
         - Atlantis
         - Renovate
@@ -123,7 +120,7 @@ experiences:
       tag: internship
       location: London, UK
       details: |
-        Internship in a respectable UK game studio. Gained insights on how game production pipelines, huge code base and version control works. Wrote an audio processing feature for DiRT Rally and did voice-over for Russian localization. Designed sound assets for Micromachines.
+        Internship in a respectable UK game studio. Gained insights on how game production pipelines, huge code bases and version control works. Wrote an audio processing feature for DiRT Rally and did voice-over for Russian localization. Designed sound assets for Micromachines.
       tech:
         - C++
         - Perforce
@@ -140,11 +137,11 @@ projects:
     - name: Audio granular re-synthesis and resampling @ University.
       link: https://github.com/dennislapchenko/srxvert
       details: |
-        For bachelor’s Audio Software Development module developed an audio file processor with unique granular re-synthesis algorithm. Using JUCE, a high level C++ framework. From a sample file application procedurally generates any number of audio files with various transforming settings. Up-sampling and down-sampling algorithms were also implemented.
+        Bachelor's final year module, Audio Software Development: developed an audio file processor with unique granular re-synthesis algorithm. Using JUCE, a high level C++ framework. Application takes sample files and procedurally generates any number of audio files with various transforming settings. Up-sampling and down-sampling algorithms.
     - name: Multiplayer Online Role Playing Game @ University.
       link: https://github.com/dennislapchenko/DARP_Server
       details: |
-        As part of bachelors thesis built a MMORPG game prototype. Back-end solution with C# Photon Server framework and MySQL database. Client in Unity3D. Photoshop for assets. Deployed the server to AWS EC2, database to DigitalOcean, and tested the game on iPad and iPhone devices.
+        Bachelor's thesis: built a MMORPG game prototype. Back-end solution with Photon Server framework (C#) and MySQL database. Front-end in Unity3D. Photoshop for assets. Deployed to multiclouts, server to AWS EC2, database to DigitalOcean. Tested the game on iPad and iPhone devices.
 
 skills:
   display: true
@@ -152,13 +149,14 @@ skills:
   items:
     - name: Operations
       skills:
+        - Terraform(-grunt)
         - GCP, AWS
-        - Terraform[-grunt]
         - Kubernetes, Helm, Docker
         - VPC design
         - VPN
         - ArgoCD
         - Ansible
+        - "*nix system ops"
         - Bash
         - Nginx, SSL
         - Grafana, Prometheus
@@ -204,23 +202,22 @@ education:
       major: Creative Music Technology
       degree: Bachelor, first class
       details: |
-        Audio engineering, digital signal processing, generative visual art, audio / game / network programming.
+        Audio engineering, digital signal processing, programming for audio, generative visual art, games and networks.
 
 certificates:
-  display: false
+  display: true
   title: Certificates
   items:
-    - name: Course Foo
-      authority: Coursera
-      time: 2020
-      link: https://www.google.com
-      details: |
-        It's my Course Foo certificate by coursera.
+    - name: Oracle Certified Associate, Java SE 8 Programmer
+      authority: Oracle
+      time: 2017
+      link: https://education.oracle.com/oracle-certified-associate-java-se-8-programmer/trackp_333
+      details: ""
 
 languages:
   display: false
   title: Languages
-  items: 
+  items:
     - idiom: English
       level: Bilingual
     - idiom: Russian
@@ -242,7 +239,6 @@ interests:
       link:
     - item: Consciousness and its mechanics
       link:
-
 
 footer:
   display: false

@@ -1,6 +1,6 @@
 # Welcome to Jekyll!
 title: DL Resume
-url:
+url: https://dennislapchenko.github.io
 baseurl:
 
 # Sass setting
@@ -12,5 +12,7 @@ sass:
 lang: en                    # html lang
 open: true                  # open or close your site
 date_format: "%Y-%m-%d"     # date format
-theme_color: "#1DA1F2"      # your favorite theme color
+theme_color: "#b0dd52"      # your favorite theme color
 allow_search_engines: false  # allow search engines indexing your resume
+analytics:
+  google: G-GHFWPHDLGR

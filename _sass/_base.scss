@@ -1,202 +1,209 @@
 html {
-    font-size: $base-font-size;
-    scroll-behavior: smooth;
-    touch-action: manipulation;
+  font-size: $base-font-size;
+  scroll-behavior: smooth;
+  touch-action: manipulation;
 }
 
 body {
-    font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
-    color: $text-color;
-    background: $background-color;
-    padding: $spacing-unit;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
+  font: $base-font-weight #{$base-font-size}/#{$base-line-height}
+    $base-font-family;
+  color: $text-color;
+  background: $background-color;
+  padding: $spacing-unit;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.col-divider {
+  border-right: 1px dashed rgba($theme-color, 25%);
+  padding-right: 15px;
+  padding-bottom: 15px;
 }
 
 a {
-    &,
-    &:visited,
-    &:hover {
-        color: $text-color;
-        text-decoration: none;
-    }
+  &,
+  &:visited,
+  &:hover {
+    color: $text-color;
+    text-decoration: none;
+  }
 }
 
 p {
-    line-height: $base-line-height;
-    margin-bottom: $spacing-unit / 4;
+  line-height: $base-line-height;
+  margin-bottom: $spacing-unit / 4;
 }
 
 small {
-    font-weight: $base-font-weight;
+  font-weight: $base-font-weight;
 }
 
 .wrapper {
-    position: relative;
-    background: $wrapper-color;
-    max-width: $content-width;
-    margin: 0 auto;
-    padding: $spacing-unit * 2;
-    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  position: relative;
+  background: $wrapper-color;
+  max-width: $content-width;
+  margin: 0 auto;
+  padding: $spacing-unit * 2;
+  box-shadow: 0px 3px 6px rgba(255, 255, 255, 0.5);
 
-    section {
+  section {
+    margin-bottom: $spacing-unit / 4;
+
+    .section-title {
+      text-transform: uppercase;
+      font-size: $huge-font-size;
+      font-weight: $base-font-weight * 1.25;
+      color: $theme-color;
+      position: relative;
+      margin-top: 0;
+      margin-bottom: $spacing-unit / 4;
+      border-bottom: 1px dashed rgba($theme-color, 25%);
+    }
+
+    .section-content {
+      .techlist {
+        font-style: italic;
+      }
+      .markdown {
+        ul,
+        ol {
+          margin-bottom: $spacing-unit / 4;
+          padding-inline-start: $spacing-unit;
+        }
+      }
+      .item:not(:last-child) {
+        border-bottom: 1px dashed rgba($item-divider-color, 20%);
+      }
+    }
+
+    .upper-row {
+      position: relative;
+      overflow: hidden;
+      margin-bottom: 2px;
+      display: flex;
+
+      .company {
+        font-weight: 800;
+        font-size: $middle-font-size;
+        margin-top: 8px;
+        margin-bottom: 1px;
+        text-decoration: underline;
+      }
+      .certificate,
+      .university {
+        font-weight: 700;
+      }
+      .role {
+        color: $job-title-color;
+      }
+      .authority,
+      .major {
+        font-style: italic;
+      }
+      .skill_group {
+        font-weight: $base-font-weight * 2;
+        margin-bottom: 2px;
+      }
+      .skillez {
+        width: 100%;
+        margin-left: 50px;
+        text-align: right;
+        color: $text-second-color;
+      }
+      .time,
+      .location,
+      .degree {
+        position: absolute;
+        right: 0;
+        top: 0;
+        color: $text-third-color;
+      }
+    }
+  }
+
+  .basic {
+    .avatar img {
+      float: right;
+      max-width: 100px;
+      margin-bottom: $spacing-unit;
+      border: 0px solid $wrapper-color;
+      box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    }
+
+    .header {
+      .name {
+        font-size: $huge-font-size;
+        font-weight: $base-font-weight * 2, 25;
+        margin-top: 0;
+        margin-bottom: $spacing-unit / 4;
+      }
+
+      .title {
+        color: $job-title-color;
+        font-size: $middle-font-size;
+        font-weight: $base-font-weight;
+        margin-top: 0;
+        margin-bottom: $spacing-unit / 4;
+      }
+
+      .contact ul {
         margin-bottom: $spacing-unit / 4;
 
-        .section-title {
-            text-transform: uppercase;
-            font-size: $huge-font-size;
-            font-weight: $base-font-weight * 1.25;
-            color: $theme-color;
-            position: relative;
-            margin-top: 0;
-            margin-bottom: $spacing-unit / 4;
-            border-bottom: 1px dashed rgba($theme-color, 25%);
-        }
+        li {
+          display: inline;
+          white-space: nowrap;
 
-        .section-content {
-            .techlist {
-                font-style: italic;
-            }
-            .markdown {
-                ul,
-                ol {
-                    margin-bottom: $spacing-unit / 4;
-                    padding-inline-start: $spacing-unit;
-                }
-            }
-            .item {
-                border-bottom: 1px dashed rgba($item-divider-color, 20%);
-            }
+          &:not(:last-child)::after {
+            content: "|";
+            margin: 0 0.25em;
+          }
         }
-
-        .upper-row {
-            position: relative;
-            overflow: hidden;
-            margin-bottom: 2px;
-            display: flex;
-
-            .company {
-                font-weight: 800;
-                font-size: $middle-font-size;
-                margin-top: 8px;
-                margin-bottom: 1px;
-                text-decoration: underline;
-            }
-            .certificate,
-            .university {
-                font-weight: 700;
-            }
-            .role {
-                color: $theme-color;
-            }
-            .authority,
-            .major {
-                font-style: italic;
-            }
-            .skill_group {
-                font-weight: $base-font-weight * 2;
-                margin-bottom: 2px;
-            }
-            .skillez {
-                width: 100%;
-                margin-left: 100px;
-                text-align: right;
-                color: $text-third-color;
-            }
-            .time,
-            .location,
-            .degree {
-                position: absolute;
-                right: 0;
-                top: 0;
-                color: $text-third-color;
-            }
-        }
+      }
     }
+  }
 
-    .basic {
-        .avatar img {
-            float: right;
-            max-width: 100px;
-            margin-bottom: $spacing-unit;
-            border: 0px solid $wrapper-color;
-            box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
-        }
-
-        .header {
-            .name {
-                font-size: $huge-font-size;
-                font-weight: $base-font-weight * 2,25;
-                margin-top: 0;
-                margin-bottom: $spacing-unit / 4;
-            }
-
-            .title {
-                color: $text-second-color;
-                font-size: $middle-font-size;
-                font-weight: $base-font-weight;
-                margin-top: 0;
-                margin-bottom: $spacing-unit / 4;
-            }
-
-            .contact ul {
-                margin-bottom: $spacing-unit / 4;
-
-                li {
-                    display: inline;
-                    white-space: nowrap;
-
-                    &:not(:last-child)::after {
-                        content: '|';
-                        margin: 0 0.25em;
-                    }
-                }
-            }
-        }
+  .projects {
+    .project {
+      font-weight: $base-font-weight * 1.75;
+      color: $text-color;
+      margin-bottom: 1px;
+      text-decoration: underline;
     }
+  }
 
-    .projects {
-        .project {
-            font-weight: $base-font-weight * 1.75;
-            color: $text-color;
-            margin-bottom: 1px;
-            text-decoration: underline;
-        }
+  .skills {
+    .bar {
+      max-width: 80%;
+      --labels-size: 20%;
     }
+  }
 
-    .skills {
-        .bar {
-            max-width: 80%;
-            --labels-size: 20%;
+  .languages,
+  .interests {
+    ul {
+      margin-bottom: $spacing-unit / 4;
+
+      li {
+        display: block;
+        white-space: nowrap;
+
+        &:before {
+          content: "•";
+          margin: 0 0.25em;
         }
+      }
     }
-
-    .languages,
-    .interests {
-        ul {
-            margin-bottom: $spacing-unit / 4;
-
-            li {
-                display: block;
-                white-space: nowrap;
-
-                &:before {
-                    content: '•';
-                    margin: 0 0.25em;
-                }
-            }
-        }
-    }
+  }
 }
 
 .footer {
-    padding-top: $spacing-unit / 2;
+  padding-top: $spacing-unit / 2;
 
-    .copyright {
-        color: $text-second-color;
+  .copyright {
+    color: $text-second-color;
 
-        .fa-heart {
-            color: $heart-color;
-        }
+    .fa-heart {
+      color: $heart-color;
     }
+  }
 }
