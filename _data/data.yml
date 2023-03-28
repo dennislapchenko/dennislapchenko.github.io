@@ -34,24 +34,6 @@ experiences:
   display: true
   title: Experience
   items:
-    - company: Whisk (by Samsung)
-      website: whisk.com
-      role: Senior Cloud Engineer
-      time: 2022.11 - present
-      tag:
-      location: Remote
-      details: |
-        Automating legacy approaches throughout infrastructure and team management (IaC for GitHub IAM, GCP IAM).
-        Migrating/rebuilding Kubernetes clusters, VPCs, VPNs and other auxiliary infrastructure.
-      tech:
-        - Terraform
-        - Kubernetes
-        - GCP
-        - Ansible
-        - ArgoCD/FluxCD
-        - Cloudflare
-        - Github [Actions]
-
     - company: Octostrategy
       role: Cloud Architect
       website: ""
@@ -67,6 +49,24 @@ experiences:
         - Ansible
         - AWS
         - Nginx
+        - Cloudflare
+        - Github [Actions]
+
+    - company: Whisk (by Samsung)
+      website: whisk.com
+      role: Senior Cloud Engineer
+      time: 2022.11 - 2023.04
+      tag:
+      location: Remote
+      details: |
+        Automating legacy approaches throughout infrastructure and team management (IaC for GitHub IAM, GCP IAM).
+        Migrating/rebuilding Kubernetes clusters, VPCs, VPNs and other auxiliary infrastructure.
+      tech:
+        - Terraform
+        - Kubernetes
+        - GCP
+        - Ansible
+        - ArgoCD/FluxCD
         - Cloudflare
         - Github [Actions]
 
