@@ -22,10 +22,9 @@ profile:
   title:
   details: |
     Cloud infrastructure and application development, configuration, deployment, testing and monitoring.
-    Started as e-commerce/data backend engineer, authoring REST micro-services.
-    Later gravitated to writing infrastructure as code, Kubernetes operation, CICD pipelines, QAOps, GitOps, monitoring, reporting and alerting.
-    <br> Smooth automation with single sources of truth gets my juices flowing! Obsess over workflow improving hotkeys/scripts/applications.
-    <br> Experience in game development (MMORPG) and digital signal processing (audio) from university days in Bath, UK.
+    Started as e-commerce backend engineer. Later gravitated to writing infrastructure as code, Kubernetes operation, CICD pipelines, QAOps, monitoring, reporting and alerting.
+    <br> Smooth automation with single sources of truth (git) gets my juices flowing! Obsess over workflow improving hotkeys/scripts/applications.
+    <br> Experience in game development (MMORPG) and Digital Signal Processing (audio) from university days in Bath, UK.
     <br> Not afraid of firmly voicing an opinion, not shy in giving complements or feeding back caring constructive criticism.
     Enjoy environments filled with witty humour.
     Source inspiration from art forms, cultural human interactions and internal mind-body sciences.
@@ -153,17 +152,17 @@ skills:
         - GCP, AWS
         - Kubernetes, Helm, Docker
         - VPC design
-        - VPN
-        - ArgoCD
+        - 'GitOPs: ArgoCD, FluxCD'
+        - Atlantis
         - Ansible
         - "*nix system ops"
         - Bash
         - Nginx, SSL
-        - Grafana, Prometheus
-        - Atlantis
+        - Grafana, Prometheus, Loki
         - Renovate
-        - Postgres, MySQL
-        - Github, Bitbucket
+        - Postgres, MySQL, Redis
+        - Github, Gitlab, Bitbucket
+        - Wireguard VPN
     - name: Development
       skills:
         - Go
