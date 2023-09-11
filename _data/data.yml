@@ -33,6 +33,22 @@ experiences:
   display: true
   title: Experience
   items:
+    - company: OnAir Entertainment
+      role: DevOps Engineer
+      website: ""
+      time: 2023.05 - present
+      tag:
+      location: Riga, Latvia
+      details: |
+        Multi-cloud infrastructure provisioning and maintenance.
+        CICD pipelines for business applications and infrastructure code.
+      tech:
+        - Terraform+Terragrunt
+        - GCP/AWS
+        - Atlantis
+        - Gitlab EE
+        - ArgoCD+FluxCD
+
     - company: Octostrategy
       role: Cloud Architect
       website: ""
@@ -44,15 +60,15 @@ experiences:
         Network securing and vulnerable application load-balancer fine tuning.
         Cyberattack analysis and prevention.
       tech:
-        - Terraform (-grunt)
+        - Terraform+Terragrunt
         - Ansible
         - AWS
         - Nginx
         - Cloudflare
         - Github [Actions]
 
-    - company: Whisk (by Samsung)
-      website: whisk.com
+    - company: Samsung Food (formerly Whisk)
+      website: samsungfood.com
       role: Senior Cloud Engineer
       time: 2022.11 - 2023.04
       tag:
@@ -82,7 +98,7 @@ experiences:
         Building in-house tools for documentation and report generation, data analysis, and continuous CLI workflow improvements.
         Continuous improvements via GitOps dependency and template updates.
       tech:
-        - Terraform (-grunt)
+        - Terraform+Terragrunt
         - Kubernetes, Helm
         - Golang, Bash, Python
         - GCP
