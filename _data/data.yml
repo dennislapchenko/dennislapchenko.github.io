@@ -65,7 +65,10 @@ experiences:
         - AWS
         - Nginx
         - Cloudflare
-        - Github [Actions]
+        - Github Actions
+        - Loki
+        - VictoriaMetrics
+        - Grafana
 
     - company: Samsung Food (formerly Whisk)
       website: samsungfood.com
@@ -81,7 +84,7 @@ experiences:
         - Kubernetes
         - GCP
         - Ansible
-        - ArgoCD/FluxCD
+        - ArgoCD+FluxCD
         - Cloudflare
         - Github [Actions]
 
@@ -102,7 +105,8 @@ experiences:
         - Kubernetes, Helm
         - Golang, Bash, Python
         - GCP
-        - Stackdriver, Prometheus, Grafana
+        - Prometheus
+        - Grafana
         - Atlantis
         - Renovate
         - Bitbucket [Pipelines]
