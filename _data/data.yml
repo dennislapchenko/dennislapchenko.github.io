@@ -6,12 +6,12 @@ basic:
     path: profile.png
 
 contact:
-  location: Riga, Latvia (currently Indonesia)
+  location: Riga, Latvia
   email: deniss.lapcenko@gmail.com
   phone: +371 25953702
   website: /garden-of-wiki
   whatsapp:
-  telegram:
+  telegram: zhora_velosiped
   github: dennislapchenko
   linkedin:
   twitter:
@@ -22,12 +22,13 @@ profile:
   title:
   details: |
     Cloud infrastructure and application development, configuration, deployment, testing and monitoring.
-    Started as e-commerce backend engineer. Later gravitated to writing infrastructure as code, Kubernetes operation, CICD pipelines, QAOps, monitoring, reporting and alerting.
-    <br> Smooth automation with single sources of truth (git) gets my juices flowing! Obsess over workflow improving hotkeys/scripts/applications.
+    Started as e-commerce backend engineer. Later knighted in infrastructure as code, flying Kubernetes ships, tinkering CICD pipelines, QAOps, monitoring, reporting and alerting.
+    Favourite thing to do: get drowned in Terraform.
+    <br> Smooth automation with single sources of truth (git) gets my juices flowing! Obsess over workflow improving hotkeys/scripts/automations/applications.
     <br> Experience in game development (MMORPG) and Digital Signal Processing (audio) from university days in Bath, UK.
     <br> Not afraid of firmly voicing an opinion, not shy in giving complements or feeding back caring constructive criticism.
     Enjoy environments filled with witty humour.
-    Source inspiration from art forms, cultural human interactions and internal mind-body sciences.
+    Source inspiration from art forms, cultural human interactions and internal mind-body-spirit sciences.
 
 experiences:
   display: true
@@ -40,11 +41,12 @@ experiences:
       tag:
       location: Riga, Latvia
       details: |
-        Multi-cloud infrastructure provisioning and maintenance.
-        CICD pipelines for business applications and infrastructure code.
+        Multi-cloud infrastructure provisioning, refactoring and maintenance.
+        Kubernetes administration.
+        CICD pipelines for business/infra applications and infrastructure code.
       tech:
         - Terraform+Terragrunt
-        - GCP/AWS
+        - GCP/AWS/Hetzner
         - Atlantis
         - Gitlab EE
         - ArgoCD+FluxCD
@@ -52,12 +54,12 @@ experiences:
     - company: Octostrategy
       role: Cloud Architect
       website: ""
-      time: 2022.05 - present
+      time: 2022.05 - xxx
       tag:
       location: Riga, Latvia
       details: |
-        Platform migration to cloud. Server deployment, configuration, monitoring and alerting.
-        Network securing and vulnerable application load-balancer fine tuning.
+        Cloud migration of numerous platforms. Server deployment, configuration, monitoring and alerting.
+        Network securing and vulnerable application network access fine tuning.
         Cyberattack analysis and prevention.
       tech:
         - Terraform+Terragrunt
@@ -95,8 +97,7 @@ experiences:
       tag:
       location: Riga, Latvia
       details: |
-        Infrastructure provisioning, monitoring and cost optimization.
-        Full ownership of application CICD pipelines.
+        Full ownership of cloud resources, Kubernetes clusters and CICD pipelines.
         Business and system application development, configuration, testing, deployment and monitoring.
         Building in-house tools for documentation and report generation, data analysis, and continuous CLI workflow improvements.
         Continuous improvements via GitOps dependency and template updates.
@@ -118,7 +119,9 @@ experiences:
       tag:
       location: London, UK
       details: |
-        Developing, maintaining, testing and documenting RESTful API’s for e-commerce and telecom platforms for clients, and in-house tools. Actively communicating with colleagues across teams and 3rd parties. Planning, researching and validating technical requirements & specifications. Later writing infrastructure as code and managing k8s clusters.
+        Developing, maintaining, testing and documenting RESTful API's for e-commerce and telecom platforms for clients, and in-house tools. 
+        Actively communicating with colleagues across teams and 3rd parties. Planning, researching, validating technical requirements & specifications. 
+        Later writing infrastructure as code, managing kubernetes clusters and application deployment resources.
         <br> Clients: Audi, Halfords, Wolseley. T-Mobile US, Circle Media Inc
       tech:
         - Java
@@ -169,7 +172,7 @@ skills:
     - name: Operations
       skills:
         - Terraform(-grunt)
-        - GCP, AWS
+        - GCP, AWS, Hetzner
         - Kubernetes, Helm, Docker
         - VPC design
         - 'GitOPs: ArgoCD, FluxCD'
@@ -178,7 +181,7 @@ skills:
         - "*nix system ops"
         - Bash
         - Nginx, SSL
-        - Grafana, Prometheus, Loki
+        - Grafana, VictoriaMetrics, Loki
         - Renovate
         - Postgres, MySQL, Redis
         - Github, Gitlab, Bitbucket
